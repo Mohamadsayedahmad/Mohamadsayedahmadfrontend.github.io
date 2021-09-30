@@ -20340,6 +20340,11 @@ body {
   padding: 15px 0;
 }
 
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  left: 21%;
+}
+
 .custom-navbar .container {
   padding: 0;
 }
@@ -21075,6 +21080,12 @@ Media Query
   }
 }
 @media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: 68%;
+    top: 71%;
+  }
+
   .custom-navbar {
     padding: 15px 20px 30px;
   }
@@ -33965,6 +33976,10 @@ a.ui-button:active,
   transition: all 0.3 ease;
   padding: 6px 16px 7px 16px;
   color: #868383;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 #carousel-featured .product-details .custom-btn-primary {
